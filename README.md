@@ -71,7 +71,8 @@ CMD ["python", "app.py"]
 
 * Verified the app by accessing `http://localhost:5000`.
 
-  Result: ![resultonlocalmachine](resultonlocalmachine.png)
+  ### Result:
+  ![resultonlocalmachine](resultonlocalmachine.png)
 
 ## Step 5: Git Branch Tagging and Version Control
 
@@ -95,7 +96,9 @@ CMD ["python", "app.py"]
   def hello():
       return "Hello world  from Vaishnavi"
   ```
-
+  ### Result:
+  ![updatedresultonlocalmachine](updatedresultonlocalmachine.png)
+  
 * Committed and pushed the new branch:
 
   ```bash
@@ -135,7 +138,9 @@ CMD ["python", "app.py"]
 
 * Verified access to the Flask app at `http://<ec2-public-ip>:5000`.
 
-
+  ### Result:
+  ![ec2result](ec2result.png)
+  
 
 ## Git Branching Strategies and Trunk Based Development
 
