@@ -71,7 +71,7 @@ CMD ["python", "app.py"]
 
 * Verified the app by accessing `http://localhost:5000`.
 
-  Result: [!resultonlocalmachine]
+  Result: ![resultonlocalmachine](resultonlocalmachine.png)
 
 ## Step 5: Git Branch Tagging and Version Control
 
