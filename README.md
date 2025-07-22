@@ -140,15 +140,6 @@ CMD ["python", "app.py"]
   ![ec2result](ec2result.png)
   
 
-## Git Branching Strategies and Trunk Based Development
-
-* Multiple branches (main, new-feature) were used to separate stable release code and ongoing development.
-
-* **Trunk Based Development** involves developers committing small, frequent changes directly to a single mainline branch (trunk), avoiding long-lived feature branches to minimize integration issues.
-
-* In this project, we used feature branches and tags for releases, but adopting trunk-based development would mean all changes are integrated frequently to the main branch with feature toggles for incomplete work.
-
-
 ## GitHub Repository
 
 The complete source code and Git history can be reviewed at:
