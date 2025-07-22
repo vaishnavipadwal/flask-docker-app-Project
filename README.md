@@ -4,8 +4,6 @@
 
 This assignment involved creating a minimal Flask application, containerizing it using Docker, managing code versions with Git, and deploying the Docker image locally and on AWS EC2. The key tasks were building and tagging Docker images, managing Git branches and tags, and deploying the app to test environments.
 
----
-
 ## Step 1: Create Local Git Repository with Flask Code
 
 - Cloned the minimal Flask application example from the official Flask documentation:  
@@ -13,7 +11,6 @@ This assignment involved creating a minimal Flask application, containerizing it
 
 - Initialized a local Git repository and committed the initial Flask app code.
 
----
 
 ## Step 2: Create Requirements File
 
@@ -30,8 +27,6 @@ Jinja2==3.1.6
 MarkupSafe==3.0.2
 Werkzeug==3.1.3
 ````
-
----
 
 ## Step 3: Write Dockerfile to Build Docker Image
 
@@ -60,8 +55,6 @@ COPY . .
 CMD ["python", "app.py"]
 ````
 
----
-
 ## Step 4: Build Docker Image Locally and Run Container
 
 * Built the image:
@@ -78,7 +71,7 @@ CMD ["python", "app.py"]
 
 * Verified the app by accessing `http://localhost:5000`.
 
----
+  Result: [!resultonlocalmachine]
 
 ## Step 5: Git Branch Tagging and Version Control
 
@@ -111,8 +104,6 @@ CMD ["python", "app.py"]
   git push -u origin new-feature
   ```
 
----
-
 ## Step 6: Build Docker Image for Release Tag
 
 * Checked out the release tag locally:
@@ -127,7 +118,6 @@ CMD ["python", "app.py"]
   docker build -t flask-app:release .
   ```
 
----
 
 ## Step 7: Deploy Docker Image on AWS EC2
 
@@ -145,7 +135,7 @@ CMD ["python", "app.py"]
 
 * Verified access to the Flask app at `http://<ec2-public-ip>:5000`.
 
----
+
 
 ## Git Branching Strategies and Trunk Based Development
 
@@ -155,14 +145,12 @@ CMD ["python", "app.py"]
 
 * In this project, we used feature branches and tags for releases, but adopting trunk-based development would mean all changes are integrated frequently to the main branch with feature toggles for incomplete work.
 
----
 
 ## GitHub Repository
 
 The complete source code and Git history can be reviewed at:
 [https://github.com/vaishnavipadwal/flask-docker-app-Project](https://github.com/vaishnavipadwal/flask-docker-app-Project)
 
----
 ## DockerHub link for image
 [https://hub.docker.com/repository/docker/vaishnavipadwal/flask-app/general](https://hub.docker.com/repository/docker/vaishnavipadwal/flask-app/general)
 # Conclusion
