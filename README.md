@@ -1,4 +1,6 @@
-# Flask Docker App Deployment - Assignment Report
+# Flask Docker App Deployment - Assignment with Report
+
+
 
 This assignment involved creating a minimal Flask application, containerizing it using Docker, managing code versions with Git, and deploying the Docker image locally and on AWS EC2. The key tasks were building and tagging Docker images, managing Git branches and tags, and deploying the app to test environments.
 
