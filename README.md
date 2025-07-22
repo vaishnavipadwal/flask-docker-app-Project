@@ -92,7 +92,7 @@ CMD ["python", "app.py"]
   ```python
   @app.route('/')
   def hello():
-      return "Hello world  from Vaishnavi"
+      return "Hello world from Vaishnavi"
   ```
   ### Result:
   ![updatedresultonlocalmachine](updatedresultonlocalmachine.png)
@@ -101,7 +101,7 @@ CMD ["python", "app.py"]
 
   ```bash
   git add app.py
-  git commit -m "Updated greeting to Hello new world"
+  git commit -m "Updated greeting to Hello world from Vaishnavi"
   git push -u origin new-feature
   ```
 
