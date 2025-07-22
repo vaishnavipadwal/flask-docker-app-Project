@@ -160,7 +160,7 @@ CMD ["python", "app.py"]
 The complete source code and Git history can be reviewed at:
 [https://github.com/vaishnavipadwal/flask-docker-app-Project](https://github.com/vaishnavipadwal/flask-docker-app-Project)
 
-## DockerHub link for image
+## Dockerhub link for image
 [https://hub.docker.com/repository/docker/vaishnavipadwal/flask-app/general](https://hub.docker.com/repository/docker/vaishnavipadwal/flask-app/general)
 # Conclusion
 
