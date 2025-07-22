@@ -1,6 +1,19 @@
 # Flask Docker App Deployment - Assignment with Report
 
+## Assignment: 
+- Create a Git repository (local) with the code at
+https://flask.palletsprojects.com/en/stable/quickstart/#a-minimal-application
 
+- Write scripts to build a Docker image
+- Deploy the docker image on the local machine in a docker container
+- Tag the git branch with a “release” tag
+- Make a new branch, change the code to say “Hello new world”, commit and push the code.
+- Make a docker image for the code at the release tag.
+- Deployment of Docker Image to AWS Fargate / EC2 to test the application. Alternatively, deploy to local Docker installation, with Caddy or Traefik as the reverse proxy, and SSL termination to handle https traffic.
+
+Share the Git repository so that we can review the process followed
+
+## Report:
 
 This assignment involved creating a minimal Flask application, containerizing it using Docker, managing code versions with Git, and deploying the Docker image locally and on AWS EC2. The key tasks were building and tagging Docker images, managing Git branches and tags, and deploying the app to test environments.
 
