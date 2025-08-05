@@ -1,4 +1,4 @@
-# Flask Docker App Deployment - Assignment with Report
+# Flask App CI/CD + Docker + Git Tagging + EC2 Deployment
 
 ## Assignment: 
 - Create a Git repository (local) with the code at
